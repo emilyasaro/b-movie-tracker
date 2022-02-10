@@ -1,8 +1,8 @@
 export default {
-  HOST: "localhost",
-  USER: "eapsql",
-  PASSWORD: "12345",
-  DB: "b_movies",
-  DIALECT: "postgres",
-  PORT: "5432"
+  HOST: 'localhost',
+  USER: 'projectsea',
+  PASSWORD: 'b@n#m$',
+  DB: 'b_movies',
+  DIALECT: 'postgres',
+  PORT: '5432'
 };
