@@ -1,10 +1,10 @@
-import graphql from 'graphql'
+import graphql from 'graphql';
 const {
   GraphQLString,
   GraphQLInt,
   GraphQLObjectType,
   GraphQLSchema
-} = graphql
+} = graphql;
 
 const RootQuery = new GraphQLObjectType({
   name: 'RootQueryType',
@@ -16,8 +16,8 @@ const RootQuery = new GraphQLObjectType({
       }
     }
   }
-})
+});
 
 export default new GraphQLSchema({
   query: RootQuery
-})
+});
